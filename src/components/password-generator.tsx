@@ -2,12 +2,7 @@
 import { useState, ChangeEvent } from "react";
 
 import {
-  Card,
-  CardTitle,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
+  Card
 } from "./ui/card";
 import { Label } from "./ui/label";
 import { Button } from "./ui/button";
