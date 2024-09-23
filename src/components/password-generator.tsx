@@ -56,9 +56,6 @@ const PasswordGenerator = () => {
     navigator.clipboard.writeText(password).then(
       () => {
         alert("Password copied to clipboard");
-      },
-      (err) => {
-        alert("Failed to copy password to clipboard");
       }
     );
   };
