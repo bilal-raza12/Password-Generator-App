@@ -1,5 +1,5 @@
 "use client";
-import { useState, ChangeEvent, use } from "react";
+import { useState, ChangeEvent } from "react";
 
 import {
   Card,
@@ -11,7 +11,7 @@ import {
 } from "./ui/card";
 import { Label } from "./ui/label";
 import { Button } from "./ui/button";
-import { Checkbox, CheckedState } from "./ui/checkbox";
+import { Checkbox , CheckedState } from "./ui/checkbox";
 import { Input } from "./ui/input";
 
 const PasswordGenerator = () => {
